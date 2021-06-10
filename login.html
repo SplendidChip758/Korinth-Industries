@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <title>Korinth Industries</title>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                Korinth Industries
+            </header>
+            <nav>
+                <ul>
+                    <li><a  href="main.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="rightli"><a class="active" href="login.html">Login</a></li>
+                  </ul>
+            </nav>
+        </div>
+        <div class="card">
+            <link rel="stylesheet" href="login.css">
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

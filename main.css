@@ -1,0 +1,50 @@
+header {
+  padding: 15px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  font-family: 'AlphaCentauri';
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'ExonRegular';
+  position: sticky;
+}
+nav li {
+  float: left;
+}
+nav li.rightli {
+  float: right;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #000;
+}
+
+nav li a.active {
+  background: #1abc9c;
+}
+
+@font-face {
+  font-family: 'AlphaCentauri';
+  src: url('Alphacentauri-MVY4p.ttf');
+}
+@font-face {
+  font-family: 'ExonRegular';
+  src: url('ExonRegular-0WjEd.otf');
+}
